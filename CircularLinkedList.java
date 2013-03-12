@@ -3,7 +3,7 @@ public class CircularLinkedList<Item> implements APList<Item>{
     private DblListNode<Item> _top;
     private int _length;
 
-    public CircularLinkedList(){
+    public CircularLinkedList(){ //hi wesny, this is vjiaoblack
   _top = null;
 	_length = 0;
     }
